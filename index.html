@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Math Modeling Club</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Import the 'Poppins' font family */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+        /* Apply Tailwind-like styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* You can use inline styles for elements */
+        .reset {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar with About, Cool Models, Past Meetings, and Contact references and sticks to the top while the user is scrolling-->
+    <nav class="bg-gray-800 text-white p-4 fixed w-full top-0 flex justify-around text-xl">
+        <!-- unordered list centered around the center and space-x-6 -->
+        <ul class="flex justify-center space-x-6">
+            <li><a href="#about">About</a></li>
+            <li><a href="#cool-models">Cool Models</a></li>
+            <li><a href="#past-meetings">Past Meetings</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#contact">Contact</a></li>
+    </nav>
+    <!-- Welcome section with background image -->
+    <div class="bg-cover bg-center bg-local h-screen flex items-center justify-center" style="background-image: url('https://source.unsplash.com/1600x900/?math')">
+        <div class="p-5 bg-gray-800 rounded-xl bg-opacity-70"><h1 class="text-4xl text-white bg-color-gray-800">Welcome to the Math Modeling Club</h1></div>
+    </div>
+
+    <!-- About section -->
+    <div id="about" class="p-8">
+        <h2 class="text-2xl">About</h2>
+        <p>
+            The Math Modeling Club is a group of students who are interested in learning about mathematical modeling. We meet weekly to discuss interesting models and work on projects together.
+        </p>
+    </div>
+
+    <!-- Cool Models section -->
+    <div id="cool-models" class="p-8">
+        <h2 class="text-2xl">Cool Models</h2>
+        <p>
+            Here are some cool models that we have discussed in the past:
+        </p>
+        <ul>
+            <li>Lotka-Volterra model</li>
+            <li>Game of Life</li>
+            <li>Traveling Salesman Problem</li>
+        </ul>
+    </div>
+
+    <!-- Past Meetings section -->
+    <div id="past-meetings" class="p-8">
+        <h2 class="text-2xl">Past Meetings</h2>
+        <p>
+            Here are some of the topics we have discussed in past meetings:
+        </p>
+        <ul>
+            <li>Introduction to mathematical modeling</li>
+            <li>Modeling the spread of diseases</li>
+            <li>Optimization problems</li>
+        </ul>
+    </div>
+
+    <!-- Resources section -->
+    <div id="resources" class="p-8">
+        <h2 class="text-2xl">Resources</h2>
+        <p>
+            Here are some resources that you might find helpful:
+        </p>
+        <ul>
+            <li><a href="https://www.comap.com/">COMAP</a></li>
+            <li><a href="https://www.siam.org/">SIAM</a></li>
+            <li><a href="https://www.maa.org/">MAA</a></li>
+        </ul>
+    </div>
+
+    <!-- Contact section -->
+    <div id="contact" class="p-8">
+        <h2 class="text-2xl">Contact</h2>
+        <p>
+            If you are interested in joining the Math Modeling Club, please contact [email]
+        </p>
+    </div>
+
+    <!-- Footer with the club name and the year -->
+    <footer class="bg-gray-800 text-white p-4 text-center">
+        Math Modeling Club &copy; 2024
+    </footer>
+
+
+</body>
+</html>
